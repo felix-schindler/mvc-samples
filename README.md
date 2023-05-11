@@ -4,7 +4,23 @@ These sample apps are intended to demonstrate the MVC design pattern.
 
 ## Samples
 
-Built with [GitHub/felix-schindler/Router](https://github.com/felix-schindler/Router) (PHP / Web) and Xcode (Storyboard, Swift / iOS App).
+Built with [GitHub/felix-schindler/Router](https://github.com/felix-schindler/Router) (PHP / Web) and [Xcode](https://developer.apple.com/xcode/) (Storyboard, Swift / iOS App).
+
+### Running them
+
+```bash
+# Clone repo and open directory
+git clone https://gitlab.mi.hdm-stuttgart.de/fs146/mvc-samples.git
+cd mvc-samples
+
+# PHP
+cd php
+php -S localhost:8080     # start dev server
+
+# Swift (only on Mac!)
+cd swift
+open swift-mvc.xcodeproj  # open Xcode to run app
+```
 
 ## Carbon Images
 
