@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.useTabStops": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "phpstan.binPath": "vendor/bin/phpstan",
+  "phpstan.configFile": ".phpstan.neon",
+  "phpstan.enabled": true
+}
