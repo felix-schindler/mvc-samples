@@ -12,17 +12,11 @@ $GLOBALS['start'] = microtime(true);		// Meassure execution time -> look in Layo
 } */
 
 // Global varialbes
-// MySQL Login data
-const DB_HOST = 'localhost';
-const DB_NAME = 'name';
-const DB_USER = 'user';
-const DB_PASS = 'pass';
-
 /**
  * @var string This domain variable is among other things used for security features
  */
 const DOMAIN = 'https://schindlerfelix.de';			// Hosted on this domain
-const TITLE = 'sample';													// Title of project
+const TITLE = 'MVC Sample';											// Title of project
 
 // Require autoloaders
 require_once('./core/ClassLoader.php');	// Load classes
